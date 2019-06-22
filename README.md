@@ -1,5 +1,5 @@
 # crawl
-Crawler in bash - educational purposes only
+Crawler in bash with curl - educational purposes only
 
 # Install
 ```
