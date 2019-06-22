@@ -1,2 +1,2 @@
-# crawl.sh
+# crawl
 Crawler in bash - educational purposes only
