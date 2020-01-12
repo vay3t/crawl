@@ -3,7 +3,7 @@ Crawler in bash with curl - educational purposes only
 
 # Install
 ```
-sudo pacman -S curl
+sudo apt install curl html-xml-utils
 git clone https://github.com/vay3t/crawl
 ```
 
