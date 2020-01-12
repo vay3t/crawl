@@ -21,7 +21,7 @@ function in_array() {
 }
 
 function obtain_urls(){
-	for link in (curl -s $1 | hxnormalize | grep href | cut -d '"' -f2| sort -u); do
+	for link in $(curl -s $1 | hxnormalize | grep href | cut -d '"' -f2| sort -u); do
 		echo $link | egrep "https?://" | grep $(domain $1) &> /dev/null
 		if [ $? -eq 0 ]; then
 			new_link=$(echo $link | sed -e "s/https\?\:\/\/$(domain $1)//g")
